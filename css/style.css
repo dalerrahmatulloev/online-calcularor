@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+.dddd{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
 body{
     background-color:#171C22;
 }
