@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#171C22;
+}
+.calculator{
+    width: 550px;
+    height: 460px;
+    border: 5px solid #212A35;
+    margin: auto;
+    margin-top: 100px;
+    padding: 0px 20px 20px 20px;
+}
+.calTop{
+    border-bottom: 2px solid #EAEBED;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+.calTopLeft img{
+    width: 40px;
+}
+.calTopLeft h2{
+    font-family: sans-serif;
+    color: white;
+    margin-left: 10px;
+}
+.calTopLeft{
+    display: flex;
+    align-items: center;
+}
+.calTopRight{
+    display: flex;
+    align-items: center;
+}
+.calTopRight img{
+    width: 40px;
+}
+
+.calCenter{
+    text-align: end;
+    font-family: sans-serif;
+    padding: 24px 40px;
+}
+.calCenter p{
+    color: #828A93;
+}
+.calCenter h1{
+    color:#EAEBED;
+}
+
+.calRainbow{
+    height: 8px;
+    background: linear-gradient(90deg, #A430FF 0%, #F318AD 49.74%, #FF2171 100%);
+}
+.calFooter{
+    width: 100%;
+    height: 276px;
+    background-color: #212A35;
+    display: flex;
+    justify-content: center;
+}
+.calButtons{
+    width: 87%; 
+    margin-top: 00px;
+    height: 240px;
+}
+
+
+.calButtonsTop{
+    height: 45px;
+    justify-content: end;
+    display: flex;
+    align-items: center;
+}
+.calButtonsTop img{
+    height: 20px;
+}
+.calButtonsDown button{
+    width: 111px;
+    height: 36px;
+    border-radius: 7px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    background-color:#171C22;
+    color: #EAEBED;
+}
+.calButtonsDown1 button{
+    background-color: #2E3A48;
+}
+.calButtonsDown1{
+    display: flex;
+    justify-content: space-between;
+}
+.calButtonsDown2{
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+.calCenter{
+    height: 54px;
+}
+.calButtonsDown3{
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+.calButtonsDown4{
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+.calButtonsDown5{
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+.equals{
+    background: linear-gradient(90deg, #A430FF 0%, #F318AD 49.74%, #FF2171 100%);
+}
